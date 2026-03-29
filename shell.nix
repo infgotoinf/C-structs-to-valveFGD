@@ -7,6 +7,7 @@ let
   ];
 
   perl_modules = with pkgs.perl5Packages; [
+    TermReadKey
   ];
 
 in
