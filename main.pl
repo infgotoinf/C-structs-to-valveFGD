@@ -83,4 +83,4 @@ say $source_code;
 
 open (my $dest_file, '>', $dest)
     or die "Could not create dest file: $!\n";
-print $dest_file, $source_code;
+print $dest_file $source_code;
