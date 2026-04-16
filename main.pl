@@ -54,7 +54,7 @@ say $source_code;
 
 # Replacing structs with .FDG classes
 $source_code =~ s{
-(?: \s* //\s* (?<struct_comment>[^\n]*) )?
+(?: ^\s* //\s* (?<struct_comment>[^\n]*) )?
 
 (?<struct>
     \s* struct\s+ (?<struct_name>\w+\d?)\s* \{
