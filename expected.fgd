@@ -1,9 +1,10 @@
 @PointClass size(-16 -16 -32, 16 16 32) = Example : "Example class"
 [
-	hp(int)
+	name(string)
+	hp(integer): : : "Character's health"
 ]
 
 @PointClass size(-16 -16 -32, 16 16 32) = Example2
 [
-	ammount(int)
+	ammount(integer): : 0 : "Ammount of stuff"
 ]
